@@ -10,3 +10,49 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+}
+
+main {
+  background-color: #666666;
+  height: 450px;
+}
+
+section {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 72px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.5;
+  margin: 16px 24px;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+.card {
+  background: white;
+  margin: auto;
+  width: 800px;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  border-bottom: 8px solid #999999;
+}
+
+.indented-heading {
+  background-color: #FFBF00;
+  width: fit-content;
+  padding: 16px 32px;
+  margin-top: 8px;
+  margin-left: -8px;
+  border-bottom: 8px solid #cc9900;
+}
